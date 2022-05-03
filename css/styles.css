@@ -916,9 +916,7 @@ address {
 .examples {
   margin-top: 50px;
 }
-.examples a {
-  text-decoration: none;
-}
+
 
 .examples .title {
   color: var(--primary-text-color);
