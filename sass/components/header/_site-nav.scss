@@ -1,9 +1,7 @@
 .site-nav {
   display: flex;
 
-  &__link--current {
-    color: #2196f3;
-  }
+  
   &:hover {
     color: var(--accent-color);
   }
@@ -44,4 +42,9 @@
     background-color: #188ce8;
     border-radius: 2px;
   }
+  .site-nav__link--current {
+    color: #2196f3;
+  }
 }
+
+

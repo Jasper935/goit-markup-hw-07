@@ -10,7 +10,7 @@
   --button-bg-color: #2196f3;
   --link-color: #2196f3;
   --primary-font: Roboto, sans-serif;
-  --secondary-font: Raleway;
+  --secondary-font: Raleway, sans-serif;
 }
 
 *,
@@ -106,12 +106,12 @@ body {
   margin-left: 93px;
 }
 
-.site-nav {
-  display: flex;
+.bottom-line {
+  border-bottom: 1px solid #ececec;
 }
 
-.site-nav__link--current {
-  color: #2196f3;
+.site-nav {
+  display: flex;
 }
 
 .site-nav:hover {
@@ -152,10 +152,16 @@ body {
   border-radius: 2px;
 }
 
+.site-nav .site-nav__link--current {
+  color: #2196f3;
+}
+
 .contacts .contacts__link {
   display: flex;
   align-items: center;
   color: var(--secondary-text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
   font-size: 14px;
   line-height: 1.2;
   transition-property: color;
@@ -215,6 +221,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
 }

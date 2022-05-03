@@ -1,13 +1,13 @@
 // Vars Reset
 @import "./utils/_vars.scss";
-@import "./utils/reset";
+@import "./base/reset";
 @import "./utils/hidden";
 
 // Global
-@import "./components/global";
+@import "./base/global";
 
 //Container
-@import "./components/container";
+@import "./base/container";
 
 //Logo
 @import "./components/logo";
